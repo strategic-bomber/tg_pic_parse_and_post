@@ -91,7 +91,7 @@ def job():
         print(f"Ошибка при публикации: {e}")
 
 def main():
-    schedule.every(10).seconds.do(job)
+    schedule.every(3).hours.do(job)
     print("Скрипт запущен. Публикация будет производиться каждые 3 часа.")
     job()
     while True:
