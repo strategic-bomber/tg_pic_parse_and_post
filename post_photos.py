@@ -61,7 +61,7 @@ def job():
 
 def main():
     # Планируем выполнение задания каждые 3 часа
-    schedule.every(30).seconds.do(job)
+    schedule.every(3).hours.do(job)
     # schedule.every(3).hours.do(job)
     print("Скрипт запущен. Публикация будет производиться каждые 3 часа.")
     # Немного подождем перед первым запуском (опционально)
