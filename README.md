@@ -20,7 +20,8 @@ python generate_session.py
 python listener.py
 ```
 6. Posting pictures
-``` python post_photos.py
+``` 
+python post_photos.py
 ```
 
 P.S: pictures will be post every 3 hours, but you can change it in 64`s line
