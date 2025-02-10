@@ -1,0 +1,4 @@
+.venv
+*.session
+configs.py
+__pycache__
